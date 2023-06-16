@@ -1,0 +1,42 @@
+{
+  "name": "next-ai",
+  "version": "0.1.0",
+  "author": {
+    "name": "Carlos Ricardo De Oliveira Ziegler",
+    "url": "https://github.com/CarlosZiegler"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.6",
+    "ai": "2.0.0",
+    "d3-dsv": "^3.0.1",
+    "encoding": "^0.1.13",
+    "epub2": "^3.0.1",
+    "langchain": "^0.0.95",
+    "mammoth": "^1.6.0",
+    "next": "13.4.4-canary.11",
+    "openai-edge": "^1.0.0",
+    "pdf-parse": "^1.1.1",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "zlib": "^1.0.5",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "13.4.4-canary.11",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.0.4"
+  }
+}
