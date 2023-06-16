@@ -7,8 +7,6 @@ export default function Chat() {
     api: '/api/chat-pdf',
   });
 
-  console.log('messages', messages);
-
   return (
     <div className="mx-auto w-full max-w-md py-24 flex flex-col stretch">
       {messages.length > 0
